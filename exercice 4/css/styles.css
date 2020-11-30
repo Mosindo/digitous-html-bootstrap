@@ -1,12 +1,11 @@
 .alert{
-    ;
+    justify-content: center;
 }
 .container{
     margin-top:15px;
 }
 .col-12{
     height: 400px;
-    width: 1263px;
     background-color:	#DCDCDC;
     display: flex;
     justify-content: space-around;
@@ -14,6 +13,13 @@
 
 }
 
+.signup{
+    height: 200px;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 72px 0px ;
+}
 
 .col-4{
     border-color: red;

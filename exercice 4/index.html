@@ -55,10 +55,10 @@
         </ul>
       </div>
     </nav>
-    <div class="alert alert-danger" role="alert">
+    <div class="alert alert-danger w-75 p-3" role="alert">
       A simple danger alert—check it out!
     </div>
-    <div class="container"><!--début container-->
+    <div class="container w-75 p-3"><!--début container-->
       <div class="row ">
         <div class="col-12">
             <h1>Hi! My name is!</h1>
@@ -67,7 +67,38 @@
                 <h2>Slim Shady</h2>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 signup"><!--début du sign up-->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Sign up newsletter
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"><!--début récupertion email-->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">E-mail</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Ex:lala@land.com" aria-label="Ex:lala@land.com" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">S'abonner'</button>
+        </div>
+      </div>
+    </div><!--fin de récuperation email-->
+  </div><!--fin du sign up-->
+        </div>
+        <div class="col-4"><!--début du la ligne 3-->
             <div class="article"></div>
             <h2>Planification</h2>
             <p>Aenean eu sem eu est malesuada varius. Morbi interdum est sit amet commodo pretium. Nam ultrices massa vel diam fringilla iaculis consequat in sapien. Nullam gravida pharetra consequat. Morbi quis porta ex. Phasellus vehicula nibh a sapien semper, at interdum eros scelerisque. Duis erat orci, tincidunt vitae luctus at, elementum.</p>
@@ -82,7 +113,7 @@
             <h2>Analysis</h2>
             <p>Aenean eu sem eu est malesuada varius. Morbi interdum est sit amet commodo pretium. Nam ultrices massa vel diam fringilla iaculis consequat in sapien. Nullam gravida pharetra consequat. Morbi quis porta ex. Phasellus vehicula nibh a sapien semper, at interdum eros scelerisque. Duis erat orci, tincidunt vitae luctus at, elementum.</p>
         </div>
-      </div>
+      </div><!--fin du la ligne 3-->
     </div><!--fin container-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
