@@ -1,5 +1,6 @@
-.alert{
-    justify-content: center;
+
+.message-alert {
+    justify-items: center;
 }
 .container{
     margin-top:15px;
