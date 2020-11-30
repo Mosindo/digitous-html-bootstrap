@@ -1,0 +1,30 @@
+.alert{
+    ;
+}
+.container{
+    margin-top:15px;
+}
+.col-12{
+    height: 400px;
+    width: 1263px;
+    background-color:	#DCDCDC;
+    display: flex;
+    justify-content: space-around;
+    padding: 72px 0px ;
+
+}
+
+
+.col-4{
+    border-color: red;
+    height: 200px;
+    padding: 0px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-items: end;
+}
